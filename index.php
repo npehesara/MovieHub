@@ -557,11 +557,11 @@ if (isset($_GET['api'])) {
                 <div className="min-h-screen">
                     {/* Navigation Bar */}
                     <nav className="flex items-center justify-between p-4 max-w-6xl mx-auto">
-                        <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-full bg-[var(--accent)] shadow-lg flex items-center justify-center text-black font-bold text-lg">M</div>
+                        <div className="flex items-center gap-4">
+                            {/* Logo with larger size - increased from w-10 h-10 to w-16 h-16 */}
+                          
                             <div>
-                                <div className="text-xl font-bold tracking-wider">MovieHub</div>
-                                <div className="text-xs text-slate-400 -mt-1">Curated — Sleek</div>
+                                <img src="Logo22.png" alt="MovieHub Logo" className="w-19 h-16 " />
                             </div>
                         </div>
                         <div className="flex items-center gap-4">
